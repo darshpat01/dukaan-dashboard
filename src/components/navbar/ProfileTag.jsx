@@ -10,7 +10,7 @@ const ProfileTag = ({ name }) => {
             href="#"
             className="opacity-80 text-white underline leading-none text-[13px]"
           >
-            View Store
+            Visit store
           </a>
         </div>
       </div>
