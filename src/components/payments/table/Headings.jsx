@@ -1,6 +1,6 @@
 const Headings = () => {
   return (
-    <div className="mt-2 px-3 py-2.5 bg-zinc-100 rounded grid grid-cols-4 gap-10 text-[#4D4D4D]">
+    <div className="mt-2 px-3 py-2.5 bg-zinc-100 rounded grid grid-cols-4 gap-10 text-[#4D4D4D] mb-1">
       <div className="flex justify-start items-center">Order ID</div>
       <div className="flex justify-start items-center">
         <div className="pr-1">Order date</div>

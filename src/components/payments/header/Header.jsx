@@ -2,7 +2,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div className="w-full bg-white px-4 py-3 flex gap-[16px] border-b-2 border-zinc-300">
+    <div className="w-full bg-white px-4 py-2 flex gap-[16px] border-b-2 border-zinc-300">
       <div className="basis-1/3 flex justify-start items-center">
         <div>Payments</div>
         <div className="pl-3 flex justify-start items-center text-sm leading-none text-[#4D4D4D] hover:cursor-pointer hover:underline">
@@ -46,7 +46,7 @@ const Header = () => {
         <SearchBar />
       </div>
       <div className="basis-1/3 flex justify-end items-center gap-[12px]">
-        <div className="bg-[#E6E6E6] hover:bg-slate-300  rounded-full h-10 w-10 flex justify-center items-center hover:cursor-pointer">
+        <div className="bg-[#E6E6E6] hover:bg-zinc-300  rounded-full h-10 w-10 flex justify-center items-center hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -60,7 +60,7 @@ const Header = () => {
             />
           </svg>
         </div>
-        <div className="bg-[#E6E6E6] hover:bg-slate-300  rounded-full h-10 w-10 flex justify-center items-center hover:cursor-pointer">
+        <div className="bg-[#E6E6E6] hover:bg-zinc-300  rounded-full h-10 w-10 flex justify-center items-center hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"

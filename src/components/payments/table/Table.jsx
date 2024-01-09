@@ -10,7 +10,7 @@ const Table = () => {
         <div className="flex justify-between items-center">
           <Search />
           <div className="flex justify-start ">
-            <div className="px-3 py-1.5 bg-white rounded border border-zinc-300 justify-start items-center gap-1.5 flex hover:cursor-pointer select-none">
+            <div className="hover:bg-zinc-100 px-3 py-1.5 bg-white rounded border border-zinc-300 justify-start items-center gap-1.5 flex hover:cursor-pointer select-none">
               Sort
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const Table = () => {
                 />
               </svg>
             </div>
-            <div className="hover:cursor-pointer select-none ml-2 px-2 py-1.5 rounded border border-zinc-300 justify-start items-center gap-1.5 flex">
+            <div className="hover:bg-zinc-100 hover:cursor-pointer select-none ml-2 px-2 py-1.5 rounded border border-zinc-300 justify-start items-center gap-1.5 flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
