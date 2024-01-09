@@ -2,7 +2,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div className="w-full bg-white px-4 py-3 flex gap-[16px] border-b border-zinc-300">
+    <div className="w-full bg-white px-4 py-3 flex gap-[16px] border-b-2 border-zinc-300">
       <div className="basis-1/3 flex justify-start items-center">
         <div>Payments</div>
         <div className="pl-3 flex justify-start items-center text-sm leading-none text-[#4D4D4D] hover:cursor-pointer hover:underline">
