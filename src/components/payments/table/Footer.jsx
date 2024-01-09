@@ -4,7 +4,7 @@ const Footer = () => {
   const numberStyle2 =
     "text-center text-sm leading-tight rounded bg-sky-700 text-white px-1.5 py-1 hover:cursor-pointer select-none";
   return (
-    <div className="pt-4 flex justify-center items-center">
+    <div className="pt-4 flex justify-center items-center text-[#4D4D4D]">
       <div className="flex  justify-center items-center gap-4">
         <div className="flex select-none justify-center items-center hover:cursor-pointer pl-1.5 pr-3 py-1.5 rounded border border-zinc-300 gap-1.5 hover:bg-zinc-100">
           <svg

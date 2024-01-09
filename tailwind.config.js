@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         navBg: "#1E2640",
+        paymentText: "#4D4D4D",
       },
     },
   },
