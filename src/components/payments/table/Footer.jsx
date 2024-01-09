@@ -5,8 +5,8 @@ const Footer = () => {
     "text-center text-sm leading-tight rounded bg-sky-700 text-white px-1.5 py-1 hover:cursor-pointer select-none";
   return (
     <div className="pt-4 flex justify-center items-center">
-      <div className="flex justify-center items-center gap-4">
-        <div className="flex justify-center items-center hover:cursor-pointer pl-1.5 pr-3 py-1.5 rounded border border-zinc-300 gap-1.5 hover:bg-zinc-100">
+      <div className="flex  justify-center items-center gap-4">
+        <div className="flex select-none justify-center items-center hover:cursor-pointer pl-1.5 pr-3 py-1.5 rounded border border-zinc-300 gap-1.5 hover:bg-zinc-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -35,7 +35,7 @@ const Footer = () => {
           <div className={numberStyle}>17</div>
           <div className={numberStyle}>18</div>
         </div>
-        <div className="flex hover:bg-zinc-100 pl-3 pr-1.5 py-1.5 justify-center items-center hover:cursor-pointer rounded border border-zinc-300 gap-1.5">
+        <div className="flex select-none hover:bg-zinc-100 pl-3 pr-1.5 py-1.5 justify-center items-center hover:cursor-pointer rounded border border-zinc-300 gap-1.5">
           <div>Next</div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
