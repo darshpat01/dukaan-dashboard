@@ -1,6 +1,7 @@
 import Headings from "./Headings";
 import Search from "./Search";
 import TableItems from "./TableItems";
+import Footer from "../table/Footer";
 
 const Table = () => {
   return (
@@ -62,6 +63,25 @@ const Table = () => {
         </div>
         <Headings />
         <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <TableItems />
+        <Footer />
       </div>
     </div>
   );
